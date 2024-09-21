@@ -1,2 +1,2 @@
-# TiposDeCss
-Aprendendo um pouco sobre CSS e seu funcionamento
+# tipos-de-css
+Exercício sobre os tipos de CSS: inline, embutido e externo.
