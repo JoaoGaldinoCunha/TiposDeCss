@@ -3,36 +3,13 @@
 
 
 ##  :beginner: Sobre
-Nesta atividade, você vai experimentar com as propriedades do Flexbox para entender como elas afetam o layout dos elementos na sua página. Abaixo, vamos detalhar cada passo do exercício:
+Nesta atividade, você vai experimentar com as propriedades do CSS para entender como elas funcionam na sua página. Abaixo, vamos detalhar um pouco sobre o tópico:
 
-justify-content: flex-end: Essa mudança faz com que os elementos sejam alinhados ao final do container, empurrando-os para a borda direita (ou inferior, se estiver em coluna).
+CSS Inline
+O CSS inline é aplicado diretamente nos elementos HTML através do atributo style. Essa abordagem permite que você faça alterações rápidas em um único elemento, mas pode se tornar difícil de manter em projetos maiores, pois cada estilo é individualizado e não pode ser reutilizado facilmente.
 
-justify-content: space-between: Aqui, os elementos são distribuídos uniformemente, com o primeiro elemento na borda esquerda e o último na borda direita, criando espaços iguais entre eles.
+CSS Embutido
+O CSS embutido é colocado dentro de uma tag <style> na seção <head> do documento HTML. Essa técnica permite aplicar estilos a múltiplos elementos ao mesmo tempo, melhorando a organização em comparação ao inline. No entanto, ainda pode aumentar o tamanho do arquivo HTML e não é tão eficiente quanto o CSS externo.
 
-justify-content: center: Com essa configuração, todos os elementos são centralizados no container, criando uma aparência mais equilibrada.
-
-align-items: flex-end: Essa alteração alinha os itens ao final do eixo transversal (inferior, se estiver em linha).
-
-align-items: center: Com essa propriedade, os elementos são centralizados verticalmente (ou horizontalmente, se em coluna), tornando o layout mais harmonioso.
-
-flex-direction: column: Ao mudar a direção dos flex items de "row" para "column", você faz com que os elementos sejam organizados em uma coluna, um abaixo do outro.
-
-# :ledger: Atividade 01 de Flexbox:
-
-### Testando comandos de estilo:
-
-Adicione os estilos abaixo no código-fonte e veja o que acontece com os elementos.
-
-1. Altere a propriedade **justify-content** modificando o valor para **flex-end** (era "flex-start");
-1. Altere a propriedade **justify-content** modificando o valor para **space-between**;
-1. Altere a propriedade **justify-content** modificando o valor para **center**;
-1. Altere a propriedade **align-items** modificando o valor para **flex-end** (era "flex-start");
-1. Altere a propriedade **align-items** modificando o valor para **center**;
-1. Altere a propriedade **flex-direction** modificando o valor para **column** (era "row");
-
-## Agora é com você!
-
-Desafio: como será que eu faço para deixar os elementos da maneira abaixo?
-
-![atividade-desafio](https://github.com/user-attachments/assets/15721745-1954-493b-8b34-894ab6e9764c)
-
+CSS Externo
+O CSS externo envolve o uso de um arquivo separado que contém todas as regras de estilo. Esse arquivo é vinculado ao documento HTML, permitindo que o mesmo conjunto de estilos seja aplicado a várias páginas. Essa abordagem é a mais organizada e facilita a manutenção e a reutilização de estilos, embora exija um carregamento adicional de arquivo.
