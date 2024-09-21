@@ -1,6 +1,5 @@
 # Introduction
 - Atividade com foco em aprimoramento em CSS.
-- If you are using badges, add them here.
 
 
 ##  :beginner: About
